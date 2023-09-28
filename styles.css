@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.main {
+    padding: 50px; /* Aumenta este valor para más espacio */
+    background-image: url('img/FONDO.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-grow: 1;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.button-container {
+  display:flex; 
+  flex-wrap :wrap; 
+  justify-content :space-around; 
+  align-items :center; 
+  margin-top :20px; /* Aumenta este valor para más espacio vertical entre los botones */
+}
+.button {
+  width :45%; 
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  margin-bottom :20px; /* Aumenta este valor para más espacio vertical entre los botones */
+}
+.button img {
+  border-radius :50%; 
+  width :100px; 
+  height :100px; 
+  margin-right :10px; 
+}
+.button a {
+  background-color:#4CAF50; /* Green */
+  border:none; 
+  color:white; 
+  padding :20px 40px; /* Aumenta estos valores para aumentar el tamaño del botón */
+  text-align:center; 
+  text-decoration:none; 
+  display:inline-block; 
+  font-size :20px; /* Aumenta este valor para aumentar el tamaño del texto del botón */
+  cursor:pointer; 
+  -webkit-transition-duration :0.4s; /* Safari */
+  transition-duration :0.4s; 
+  border-radius :12px; 
+  font-family :'Comic Sans MS', cursive, sans-serif; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px; /* Ajusta este valor para cambiar el tamaño de las letras */
+    justify-content: space-between;
+}
+.main {
+    padding: 50px; /* Aumenta este valor para más espacio */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-grow: 1;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+p, h1 {
+    color: white;
+}
+
+.main-img {
+    width: 70%;
+    height: 380px;
+    margin: 20px 0 20px; /* Añade un margen arriba y abajo de las imágenes */
+    border: 1px solid #ccc; /* Añade un borde alrededor de las imágenes */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra a las imágenes */
+    
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Logo {
+    height: 60px; /* Ajusta este valor para cambiar la altura del logo */
+    margin-right: 8px; /* Ajusta este valor para cambiar el espacio a la derecha del logo */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropbtn {
+    background-color: #333; 
+    color: white; 
+    padding: 16px; 
+    font-size: 16px; 
+    border: none;
+}
